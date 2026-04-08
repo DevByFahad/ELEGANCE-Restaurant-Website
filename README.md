@@ -8,7 +8,7 @@ Built using HTML, CSS, and JavaScript, this project focuses on modern UI/UX desi
 🌐 Live Demo
 
 🔗 View Live Website
-[https://devbyfahad.github.io/ELEGANCE-Restaurant-Website/](https://devbyfahad.github.io/-L-GANCE-Restaurant-Website/)
+https://devbyfahad.github.io/ELEGANCE-Restaurant-Website/
 
 📸 Screenshots
 Homepage

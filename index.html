@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ÉLÉGANCE | Fine Dining</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="navbar" class="navbar">
+        <div class="logo" tabindex="0">ÉLÉGANCE</div>
+
+        <nav role="navigation" aria-label="Primary">
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#story" class="nav-link">Story</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reservation" class="nav-link">Reservations</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-list">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero" role="banner" aria-label="Hero section with dining experience">
+        <div class="hero-content">
+            <h1>An Exquisite Dining Experience</h1>
+            <p>Where culinary artistry meets timeless elegance</p>
+            <a href="#reservation" class="btn" role="button">Reserve Your Table</a>
+        </div>
+    </section>
+
+    <!-- STORY -->
+    <section id="story" class="story" aria-labelledby="story-title">
+        <h2 id="story-title" class="section-title">Our Story</h2>
+        <div class="story-container">
+            <div class="story-img">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80"
+                    alt="Chef preparing an exquisite dish" loading="lazy" />
+            </div>
+
+            <div class="story-text">
+                <p>
+                    Élégance was born from a passion for refined gastronomy and timeless hospitality. Our chefs craft
+                    extraordinary dishes using seasonal ingredients and artistic precision.
+                </p>
+
+                <p>
+                    Every visit is an immersive experience where luxury ambiance meets culinary mastery.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu" aria-labelledby="menu-title">
+        <h2 id="menu-title" class="section-title">Signature Menu</h2>
+
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+            <button class="tab active" data-tab="starters" role="tab" aria-selected="true"
+                tabindex="0">Starters</button>
+            <button class="tab" data-tab="mains" role="tab" aria-selected="false" tabindex="-1">Mains</button>
+            <button class="tab" data-tab="desserts" role="tab" aria-selected="false" tabindex="-1">Desserts</button>
+            <button class="tab" data-tab="wine" role="tab" aria-selected="false" tabindex="-1">Wine</button>
+        </div>
+
+        <div class="menu-items" id="menu-items" role="tabpanel" tabindex="0"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience" aria-label="Culinary journey section">
+        <div class="experience-overlay">
+            <h2>A Culinary Journey</h2>
+            <p>
+                Discover an atmosphere where every detail reflects luxury, craftsmanship, and unforgettable flavors.
+            </p>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title" class="section-title">Gallery</h2>
+        <div class="gallery-grid" role="list">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+                alt="Dish photo 1" role="listitem" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80"
+                alt="Dish photo 2" role="listitem" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+                alt="Dish photo 3" role="listitem" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80"
+                alt="Dish photo 4" role="listitem" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80"
+                alt="Dish photo 5" role="listitem" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80"
+                alt="Dish photo 6" role="listitem" loading="lazy" />
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" aria-labelledby="testimonial-title">
+        <h2 id="testimonial-title" class="section-title">Guest Experiences</h2>
+
+        <div class="testimonial-slider" role="region" aria-live="polite" aria-atomic="true">
+            <div class="testimonial active" tabindex="0">
+                <p>"An unforgettable fine dining experience."</p>
+                <span>- Food Critic</span>
+            </div>
+
+            <div class="testimonial" tabindex="0">
+                <p>"Every dish was a masterpiece."</p>
+                <span>- Michelin Guide</span>
+            </div>
+
+            <div class="testimonial" tabindex="0">
+                <p>"The most elegant restaurant I’ve ever visited."</p>
+                <span>- Luxury Magazine</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVATION -->
+    <section id="reservation" class="reservation" aria-labelledby="reservation-title">
+        <h2 id="reservation-title" class="section-title">Reserve a Table</h2>
+
+        <form id="booking-form" novalidate aria-describedby="success" aria-live="polite">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required aria-required="true" />
+                <label for="name">Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" name="email" required aria-required="true" />
+                <label for="email">Email</label>
+            </div>
+
+            <div class="form-group">
+                <input type="date" id="date" name="date" required aria-required="true" />
+                <label for="date">Date</label>
+            </div>
+
+            <div class="form-group">
+                <input type="time" id="time" name="time" required aria-required="true" />
+                <label for="time">Time</label>
+            </div>
+
+            <div class="form-group">
+                <input type="number" id="guests" name="guests" min="1" max="20" required aria-required="true" />
+                <label for="guests">Guests</label>
+            </div>
+
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+
+        <p id="success" class="success-message" role="alert" aria-live="polite"></p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="section-title">Contact</h2>
+
+        <div class="contact-grid">
+            <address>
+                <p>📍 123 Luxury Avenue</p>
+                <p>📞 <a href="tel:+1555123456" class="contact-link">+1 555 123 456</a></p>
+                <p>✉ <a href="mailto:reservations@elegance.com" class="contact-link">reservations@elegance.com</a></p>
+            </address>
+
+            <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                title="Map of Luxury Avenue, New York" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Élégance Restaurant</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

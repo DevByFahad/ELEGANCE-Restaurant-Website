@@ -14,11 +14,11 @@ https://devbyfahad.github.io/ELEGANCE-Restaurant-Website/
 Homepage
 <img width="100%" alt="homepage screenshot" src="home.png">
 Menu Section
-<img width="100%" alt="menu screenshot" src="images/menu.png">
+<img width="100%" alt="menu screenshot" src="Menu.png">
 Reservation Section
-<img width="100%" alt="reservation screenshot" src="images/reservation.png">
+<img width="100%" alt="reservation screenshot" src="Reservation.png">
 Gallery Section
-<img width="100%" alt="gallery screenshot" src="images/gallery.png">
+<img width="100%" alt="gallery screenshot" src="Gallery.png">
 
 ✨ Features
 
